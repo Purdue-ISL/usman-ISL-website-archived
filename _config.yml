@@ -8,24 +8,24 @@ highlighter: rouge
 
 markdown: kramdown
 
-repository: drummondlab/drummondlab.github.io
+repository: Purdue-ISL/test-lab-page
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Drummond Lab
-tagline: Molecular basis of cellular sensing and responses
+title : Internet Systems Lab
+tagline: Network verification and synthesis | Network support and optimizations for Internet Video
 institution:
-  url: http://www.uchicago.edu
-  name: The University of Chicago
-department:
-  url: http://bmb.uchospitals.edu
-  name: Biochemistry & Molecular Biology
+  url: http://www.purdue.edu
+  name: Purdue University
+department: 
+  url: https://engineering.purdue.edu/ECE
+  name: Elmore Family School of Electrical and Computer Engineering
 author :
-  name : D. Allan Drummond
-  email : dadrummond@uchicago.edu
-  github : dad
-  twitter : dallandrummond
+  name : Prof. Sanjay Rao
+  email : sanjay@ecn.purdue.edu
+  github : Purdue-ISL
+  twitter : 
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -36,7 +36,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://drummondlab.org
+production_url : http://engineering.purdue.edu/~isl/
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -80,7 +80,7 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
+  archive_path: 
   categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
@@ -93,16 +93,16 @@ JB :
   comments :
     provider : false
     disqus :
-      short_name : jekyllbootstrap
+      short_name : 
     livefyre :
-      site_id : 123
+      site_id : 
     intensedebate :
-      account : 123abc
+      account : 
     facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+      appid : 
+      num_posts: 
+      width: 
+      colorscheme: 
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -111,14 +111,14 @@ JB :
   analytics :
     provider : google
     google : 
-      tracking_id : 'UA-62008526-1'
+      tracking_id : ''
     getclicky :
       site_id : 
     mixpanel :
-      token : '_MIXPANEL_TOKEN_'
+      token : ''
     piwik :
-      baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-      idsite : '1'                   # the id of the site on Piwik
+      baseURL : '' # Piwik installation address (without protocol)
+      idsite : ''                   # the id of the site on Piwik
 
   # Settings for sharing 
   # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin

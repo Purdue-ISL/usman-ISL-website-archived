@@ -1,8 +1,5 @@
-_site/*
-_theme_packages/*
-
-drummondlab.sublime-project
-drummondlab.sublime-workspace
+_site
+_theme_packages
 
 Gemfile.lock
 Thumbs.db

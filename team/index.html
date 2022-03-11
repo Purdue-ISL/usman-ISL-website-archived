@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Team"
-description: "People in the lab"
+title: "People"
+description: "The ISL team"
 group: navigation
 navorder: 2
 ---
@@ -22,7 +22,7 @@ navorder: 2
 				<img class="media-object member-photo" src="{{ member.image }}">
 				</a>
 			 	<div class="media-body">
-				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<div class="head media-heading member-name"><u><a href="{{ member.url }}" class="off">{{ member.title }}</a></u></div>
 				<p class="note">{{ member.position }}</p>
 				</div>
 		</div>
@@ -38,15 +38,7 @@ navorder: 2
 <div class="bigspacer"></div>
 <hr/>
 
-<div class="row">
-	<div class="col-md-12">
-		<img class="team-photo" src="/assets/images/team/drummond-lab-20190920.jpg"/>
-	</div>
-</div>
-
-<div class="bigspacer"></div>
-<hr/>
-<div class="bigtitle text-center">Alumni</div>
+<div class="bigtitle text-center">Students</div>
 <div class="bigspacer"></div>
 
 {% assign alumni = site.categories.team | where: "alum","true"%}
@@ -63,7 +55,7 @@ navorder: 2
 				<img class="media-object member-photo" src="{{ member.image }}">
 				</a>
 			 	<div class="media-body">
-				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<div class="head media-heading member-name"><u><a href="{{ member.url }}" class="off">{{ member.title }}</a></u></div>
 				<p class="note">{{ member.position }}</p>
 				</div>
 		</div>
@@ -75,3 +67,12 @@ navorder: 2
 {% if colindex != 0 %} <!-- close last open row -->
 </div><div class="bigspacer"></div>
 {% endif %}
+
+<hr/>
+<div class="bigtitle text-center">Socials</div>
+<div class="bigspacer"></div>
+<td> <!-- InstanceBeginEditable name="body1" -->
+	<p align="center" class="style10" style="font-size: 10pt; font-weight: bold;">Fall 2021 Group Dinner - Katana Sushi and Ramen, West Lafayette, Indiana </p>
+	<p align="center"><img src="https://engineering.purdue.edu/~isl/socials/fall2021.jpg" alt="" width="614"></p>
+	<p align="center" class="style10" style="font-size: 10pt"> From left going clockwise: Usman, Chandan, Russ, Ehab, Sanjay, Zixuan and Chuan</p>
+  <!-- InstanceEndEditable --></td>

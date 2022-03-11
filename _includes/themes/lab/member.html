@@ -91,7 +91,7 @@
 		</div>
 		
 		{% assign lastname = member.title | split: ' ' | last %}
-		{% for paper in site.categories.papers %}
+		{% for paper in site.categories.publications %}
 			{% if paper.authors contains lastname %}
 				{% assign papersq = true %}
 			{% endif %}
@@ -99,9 +99,9 @@
 
 		{% if papersq == true %}
 			<div class="bigspacer"></div>
-			<div class="head">Papers</div>
+			<div class="head">Publications</div>
 			<div class="spacer"></div>
-			{% for paper in site.categories.papers %}
+			{% for paper in site.categories.publications %}
 				{% if paper.authors contains lastname %}
 					{% if paper.embargo %}
 					<p>{{ paper.title }}
