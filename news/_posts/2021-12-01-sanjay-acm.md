@@ -3,7 +3,7 @@ layout: news
 title: "Prof. Rao named ACM Distinguished Member"
 author: "Syed Usman Jafri"
 author_handle: suj
-image: /assets/images/news/rao-portrait.jpg
+image: https://usmanjafri.github.io/isl-test-site/assets/images/news/rao-portrait.jpg
 category: news
 tags: []
 ---

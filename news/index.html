@@ -47,14 +47,14 @@ navorder: 6
 			<div class="smallnote">
 				{{ post.date | date_to_string }}
 				{% if author %}
-				by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+				by <a class="off" href="{{ BASE_PATH }}{{ author.url }}">{{ author.handle }}</a>
 				{% endif %}				
 			</div>	
 		</div>
 		<div class="col-md-8">		
 			<div style="height:5px;"></div>			
 			{% if post.image %}
-			<a href="{{ post.url }}"><img class="offset" src="{{ post.image }}"></a>
+			<a href="{{ BASE_PATH }}{{ post.url }}"><img class="offset" src="{{ post.image }}"></a>
 			{% endif %}
 			<div class="post">
 				{{ post.content }}

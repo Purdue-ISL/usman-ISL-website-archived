@@ -26,7 +26,7 @@ categories:
 	  <!-- DAD: this should be dynamically populated. -->
 	  <div class="carousel-inner">
 	    <div class="active item">
-	    	<img src="/assets/themes/lab/images/banner.jpg" width='1200px' alt="">
+	    	<img src="{{ ASSET_PATH }}/themes/lab/images/banner.jpg" width='1200px' alt="">
 	    </div>
 	  </div>
 	  <!-- Carousel nav -->
@@ -71,7 +71,7 @@ categories:
 				
 				<div class="note-title">
 					<i class="fa fa-bullhorn fa-fw"></i>
-					<a class="off" href="{{ news.url }}">
+					<a class="off" href="{{ BASE_PATH }}/{{ news.url }}">
 					{{ news.title }}
 					</a>
 				</div>
@@ -83,7 +83,7 @@ categories:
 					Posted
 					{{ news.date | date_to_string }}
 					{% if author %}
-					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
+					by <a class="off" href="{{ BASE_PATH }}/{{ author.url }}">{{ author.nickname }}</a>
 					{% endif %}						
 				</div>
 				<div class="spacer"></div>	
@@ -106,11 +106,11 @@ categories:
 					<i class="fa fa-file-text-o fa-fw"></i>
 					{% if paper.preprint %}
 					Preprint: 
-					<a class="off" href="{{ paper.url }}">
+					<a class="off" href="{{ BASE_PATH }}/{{ paper.url }}">
 					{{ paper.title }}
 					</a>
 					{% else %}
-					<a class="off" href="{{ paper.url }}">
+					<a class="off" href="{{ BASE_PATH }}/{{ paper.url }}">
 					{{ paper.title }}
 					</a>
 					{% endif %}
