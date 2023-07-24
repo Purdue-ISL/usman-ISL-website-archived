@@ -20,14 +20,15 @@ The project has the potential for significant real-world impact by ensuring netw
 
 **Publications:**
 
-- **PCF: Provably Resilient Flexible Routing.**, Chuan Jiang, Sanjay Rao, Mohit Tawarmalani, ACM SIGCOMM 2020.
-- **Lancet: Better network resilience by designing for pruned failure sets.**, Yiyang Chang, Chuan Jiang, Ashish Chandra, Sanjay Rao, Mohit Tawarmalani, ACM SIGMETRICS 2020.
-- **Robust validation of network designs under uncertain demands and failures.**, Yiyang Chang, Sanjay Rao, Mohit Tawarmalani, USENIX NSDI 2017.
+- **PCF: Provably Resilient Flexible Routing.**, Chuan Jiang, Sanjay Rao, Mohit Tawarmalani, ACM SIGCOMM 2020. [[PDF]](https://engineering.purdue.edu/~isl/papers/SIGCOMM2020_76_final.pdf) [[Slides]](https://engineering.purdue.edu/~isl/slides/PCF_slides.pdf) [[Video]](https://engineering.purdue.edu/~isl/videos/SIGCOMM_76_long.mp4) [[Code]](https://github.com/secretjc/pcf)
+
+- **Lancet: Better network resilience by designing for pruned failure sets.**, Yiyang Chang, Chuan Jiang, Ashish Chandra, Sanjay Rao, Mohit Tawarmalani, ACM SIGMETRICS 2020. [[PDF]](https://engineering.purdue.edu/~isl/papers/Sigmetrics2020_Lancet.pdf) [[Slides]](https://engineering.purdue.edu/~isl/slides/sigmetrics2020_yiyang_v8.pdf) [[Video]](https://engineering.purdue.edu/~isl/videos/sigmetrics2020.mp4)
+- **Robust validation of network designs under uncertain demands and failures.**, Yiyang Chang, Sanjay Rao, Mohit Tawarmalani, USENIX NSDI 2017. [[PDF]](https://engineering.purdue.edu/~isl/papers/nsdi17-final59.pdf) [[Slides]](https://engineering.purdue.edu/~isl/papers/nsdi2017_validation_slides.pdf)
 
 **Team:**
 
-- Yiyang Chang
+- [Yiyang Chang](https://on-the-run.github.io/webpage/)
 - Ashish Chandra
 - Chuan Jiang
-- Prof. Sanjay Rao
-- Prof. Mohit Tawarmalani
+- [Prof. Sanjay Rao](https://engineering.purdue.edu/~sanjay/)
+- [Prof. Mohit Tawarmalani](https://web.ics.purdue.edu/~mtawarma/)

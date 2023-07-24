@@ -19,12 +19,12 @@ This project explores architectural enhancements, algorithms, and techniques to 
 
 **Team:**
 
-- Ehab Ghabashneh
-- Chandan Bothra
-- Prof. Alex Quinn
-- Prof. Sanjay Rao
+- [Ehab Ghabashneh](https://www.linkedin.com/in/ehab-ghabashneh-397928b3/)
+- [Chandan Bothra](https://www.linkedin.com/in/chandan-bothra/)
+- [Prof. Alex Quinn](http://alexquinn.org/)
+- [Prof. Sanjay Rao](https://engineering.purdue.edu/~sanjay/)
 
 **Collaborators**
 
-- Prof. Ramesh Govindan (University of Southern California)
-- Prof. Antonio Ortega (University of Southern California)
+- [Prof. Ramesh Govindan](https://nsl.usc.edu/people/ramesh/) (University of Southern California)
+- [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio) (University of Southern California)
