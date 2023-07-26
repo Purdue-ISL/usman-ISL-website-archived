@@ -134,6 +134,19 @@ a.off {
 	font-size: $font-size-base*2;
 }
 
+.current-project {
+	width: 80%;
+	color: #880000;
+	font-size: $font-size-base*2;
+}
+
+.past-project-link {
+	width: 80%;
+	color: #880000;
+	font-size: $font-size-base*2;
+	text-decoration: underline;
+}
+
 // emphases
 
 term {

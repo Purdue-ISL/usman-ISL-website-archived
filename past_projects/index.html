@@ -1,17 +1,15 @@
 ---
 layout: default
-title: "Projects"
-description: "Current and previous projects at ISL"
-group: navigation
-navorder: 1
+title: "Past Projects"
+description: "Previous projects at ISL"
+group: subnavigation
+navorder: 7
 ---
 {% include JB/setup %}
 <div class="bigspacer"></div>
-<div class='current-project'>
-  Current Projects:
+<div class="construction">
 </div>
-<div class="bigspacer"></div>
-{% for project in site.categories.projects %}
+{% for project in site.categories.past_project %}
 <div class='row'>
   <!--
   <div class='row'>
@@ -34,9 +32,5 @@ navorder: 1
   </div>
 </div>
 {% endfor %}
-
-<a href="{{ BASE_PATH }}/past_projects" class='past-project-link'>
-  Past Projects
-</a>
 
 <div class="bigspacer"></div>
