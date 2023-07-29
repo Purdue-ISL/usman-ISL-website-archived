@@ -38,7 +38,7 @@ navorder: 2
 <div class="bigspacer"></div>
 <hr/>
 
-<div class="bigtitle text-center">Students</div>
+<div class="bigtitle text-center">PhD Students</div>
 <div class="bigspacer"></div>
 
 {% assign alumni = site.categories.team | where: "alum","true"%}
@@ -51,11 +51,11 @@ navorder: 2
 	{% endif %}
 	<div class="col-md-4 memberbox">
 		<div class="media">
-				<a class="pull-left" href="{{ BASE_PATH }}/{{ member.url }}">
+				<a class="pull-left" href="{{ member.twitter }}">
 				<img class="media-object member-photo" src="{{ member.image }}">
 				</a>
 			 	<div class="media-body">
-				<div class="head media-heading member-name"><u><a href="{{ BASE_PATH }}/{{ member.url }}" class="off">{{ member.title }}</a></u></div>
+				<div class="head media-heading member-name"><u><a href="{{ member.twitter }}" class="off">{{ member.title }}</a></u></div>
 				<p class="note">{{ member.position }}</p>
 				</div>
 		</div>
@@ -67,6 +67,15 @@ navorder: 2
 {% if colindex != 0 %} <!-- close last open row -->
 </div><div class="bigspacer"></div>
 {% endif %}
+
+<hr/>
+<div class="bigtitle text-center">Undergraduate Students</div>
+<div class="bigspacer"></div>
+
+<hr/>
+<div class="bigtitle text-center">Alumni</div>
+<div class="bigspacer"></div>
+
 
 <hr/>
 <div class="bigtitle text-center">Socials</div>
